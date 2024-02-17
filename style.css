@@ -8,8 +8,15 @@ body {
 }
 
 #hero {
-    width: 592px;
-    margin: 0 auto 79px;}
+    width: 626px;
+    margin: 0 auto 79px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+}
 
 /*imagem principal */
     #hero img {
@@ -62,16 +69,10 @@ a {
 }
 
 /*footer*/
-footer {
-    font-family: 'Open sans' , sans-serif;
-    color: #3F3D56;
-    font-size: 15px;
-    font-weight: 700;
-    font-style: normal;
-    margin-left: 376px;
-    margin-right: 376px;
+#footer {
+    margin: 0 auto;
+    width: 100%;
 }
-
 /*espaçamento do footer*/
 #footer a + a {
     margin-left: 42px;
@@ -79,7 +80,7 @@ footer {
 
 /*linha acima das redes sociais*/
 #line {
-    width: 568px;
+    width: 391px;
     height: 0px;
     margin: 0 auto 16px;
     border: 1px solid #ECEFF2;
