@@ -1,0 +1,96 @@
+body {
+    font-family: 'Open sans' , sans-serif;
+    text-align: center;
+    margin-top: 64px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+}
+
+#hero {
+    width: 592px;
+    margin: 0 auto 79px;}
+
+/*imagem principal */
+    #hero img {
+    margin-bottom: 27px;
+}
+
+/*título */
+h1 {
+    font-family: 'Dosis' , sans-serif;
+    font-size: 32px;
+    line-height: normal;
+    font-weight: 500;
+    margin-bottom: 27px;
+    width: 540px;
+
+}
+
+h1 span {
+    font-weight: bold;
+}
+
+/*coloração da palavra destino*/
+span {
+    color: #EE24FF;
+}
+
+/*paragrafo*/
+p {
+    font-family: 'Open sans' , sans-serif;
+    color: #828282;
+    font-size: 15px;
+    line-height: 22px;
+    width: 540px;
+}
+
+/*coloração das palavras em destaque*/
+strong {
+    color: #3F3D56;
+}
+
+/*links*/
+a {
+    font-family: 'Open sans' , sans-serif;
+    color: #3F3D56;
+    font-size: 15px;
+    font-weight: 700;
+    font-style: normal;
+    text-decoration: none;
+
+}
+
+/*footer*/
+footer {
+    font-family: 'Open sans' , sans-serif;
+    color: #3F3D56;
+    font-size: 15px;
+    font-weight: 700;
+    font-style: normal;
+    margin-left: 376px;
+    margin-right: 376px;
+}
+
+/*espaçamento do footer*/
+#footer a + a {
+    margin-left: 42px;
+}
+
+/*linha acima das redes sociais*/
+#line {
+    width: 568px;
+    height: 0px;
+    margin: 0 auto 16px;
+    border: 1px solid #ECEFF2;
+}
+
+/*elemento visual do layout fixo*/
+#onda {
+    margin-top: 41px;
+    bottom: 0; 
+    left: 0;
+    width: 1024px;
+}
+
+
